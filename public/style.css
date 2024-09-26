@@ -1,0 +1,49 @@
+/* Basic styles for the game */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #0d0d0d;
+    color: #ffffff;
+}
+
+#game-container {
+    margin-top: 50px;
+}
+
+/* HP Bar Styles */
+#hp-bar {
+    width: 300px;
+    height: 25px;
+    background-color: #555;
+    border: 2px solid #fff;
+    margin: 0 auto 20px;
+    position: relative;
+}
+
+#hp-fill {
+    background-color: #4caf50;
+    width: 100%;
+    height: 100%;
+    transition: width 0.5s;
+}
+
+/* Button Styles */
+#attack-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#attack-button:hover {
+    background-color: #0b7dda;
+}
+
+/* Game Messages */
+#game-messages {
+    margin-top: 20px;
+    font-size: 18px;
+}
